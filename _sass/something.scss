@@ -1,0 +1,32 @@
+$twitter: #1DA1F2;
+
+.twitter {
+    color: $twitter;
+}
+
+.github {
+    color: #333;
+}
+
+.github:hover {
+    color: darken(#333, 5%);
+}
+
+.twitter:hover {
+    color: darken($twitter, 5%);
+}
+
+.about {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.profile-pic {
+    margin: auto;
+    max-width: 30%;
+}
+
+.profile-desc {
+    max-width: 70%;
+}
+

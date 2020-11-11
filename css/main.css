@@ -18,7 +18,7 @@ $primary-invert: $pink-invert;
 
 // 4. Import the rest of Bulma
 */
-@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap");
 /*! bulma.io v0.9.1 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
 @keyframes spinAround {
@@ -309,7 +309,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font-family: "Nunito Sans", sans-serif; }
 
 code,
 pre {
@@ -6906,7 +6906,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   font-weight: 700 !important; }
 
 .is-family-primary {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Nunito Sans", sans-serif !important; }
 
 .is-family-secondary {
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
@@ -7723,6 +7723,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+.content-text {
+  font-weight: 300; }
+
 @media screen and (max-width: 499px) {
   .navbar-menu {
     display: block;
@@ -7743,17 +7746,18 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .navbar-start {
     margin-left: 2rem; } }
 
-.twitter {
-  color: #1DA1F2; }
+.social-btn > a {
+  color: #2a3439; }
 
-.github {
-  color: #333; }
+.social-btn > a:hover {
+  color: black; }
 
-.github:hover {
-  color: #262626; }
+@media screen and (min-width: 769px) {
+  .social-btn {
+    margin-right: 1.5rem !important; } }
 
-.twitter:hover {
-  color: #0d95e8; }
+.card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
 
 section.profile {
   max-width: 767px;

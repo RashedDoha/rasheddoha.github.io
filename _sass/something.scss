@@ -1,3 +1,7 @@
+.content-text {
+    font-weight: 300;
+}
+
 @include until($navbar-breakpoint) {
 
     
@@ -28,21 +32,24 @@
 }
 
 
-.twitter {
-    color: $twitter;
+.social-btn > a {
+    color: $gunmetal;
 }
 
-.github {
-    color: #333;
+.social-btn > a:hover {
+    color: darken($gunmetal, 50%);
 }
 
-.github:hover {
-    color: darken(#333, 5%);
+@include from($tablet) {
+    .social-btn {
+        margin-right: 1.5rem !important;
+    }
 }
 
-.twitter:hover {
-    color: darken($twitter, 5%);
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,.5);
 }
+
 
 section.profile {
     max-width: 767px;

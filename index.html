@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Personal website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/main.css" />
   </head>
@@ -35,21 +36,28 @@
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="buttons">
-                <span class="social-btn mr-5">
+
+                <span class="social-btn mr-3" ">
                   <a
                     href="https://twitter.com/RashedDoha"
                     target="_blank"
-                    class="twitter"
-                    ><i class="fab fa-twitter fa-lg"></i
-                  ></a>
+                    ><i data-feather="twitter"></i>
+                  </a>
                 </span>
-                <span class="social-btn mr-5">
+                <span class="social-btn mr-3">
                   <a
                     href="https://github.com/RashedDoha"
                     target="_blank"
-                    class="github"
-                    ><i class="fab fa-github fa-lg"></i
-                  ></a>
+                    ><i data-feather="github"></i>
+                  </a>
+                </span>
+
+                <span class="social-btn mr-3">
+                  <a
+                    href="https://linkedin.com/in/rasheddoha"
+                    target="_blank"
+                    ><i data-feather="linkedin"></i>
+                  </a>
                 </span>
               </div>
             </div>
@@ -61,7 +69,7 @@
       </nav>
 
       <div class="has-text-centered">
-        <p class="title">Rashed Doha</p>
+        <p class="title" style="font-weight: 400;">Rashed Doha</p>
       </div>
 
       <hr />
@@ -73,7 +81,7 @@
               <img src="images/fall.JPG" alt="profilepic" class="profilepic" />
             </div>
           </figure>
-          <p class="column is-8">
+          <p class="column is-8 content-text">
             Mechanical Engineering graduate student currently doing
             autonomous-vehicle related research at Indiana University. Extensive
             experience of 2+ years in computer vision and software development.
@@ -94,11 +102,9 @@
       </div>
     </section>
     </div>
-
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
-    ></script>
+    
     <script type="text/javascript" src="lib/main.js"></script>
+    <script src="lib/feather.min.js"></script>
+    <script>feather.replace()</script>
   </body>
 </html>

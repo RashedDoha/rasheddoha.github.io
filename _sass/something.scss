@@ -1,4 +1,32 @@
-$twitter: #1DA1F2;
+@include until($navbar-breakpoint) {
+
+    
+    .navbar-menu {
+      display: block;
+      opacity: 0;
+  
+      position: absolute;   /* or float: left; width: 100%;*/
+      left: 0;
+      right: 0;
+  
+      transform: translateY(-50%);
+      transition: all .4s ease-in-out;
+      pointer-events: none;
+    }
+  
+    .navbar-menu.is-active {
+      opacity: 1;
+      transform: none;
+      pointer-events: auto;
+    }
+  }
+
+@include from($navbar-breakpoint) {
+    .navbar-start {
+        margin-left: 2rem;
+    }
+}
+
 
 .twitter {
     color: $twitter;
@@ -16,17 +44,14 @@ $twitter: #1DA1F2;
     color: darken($twitter, 5%);
 }
 
-.about {
-    max-width: 70%;
-    margin: 0 auto;
-}
-
-.profile-pic {
+section.profile {
+    max-width: 767px;
     margin: auto;
-    max-width: 30%;
 }
 
-.profile-desc {
-    max-width: 70%;
+@include until($tablet) {
+    .profilepic {
+        width: 58%;
+        margin: auto;
+    }
 }
-

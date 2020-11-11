@@ -5,15 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Personal website</title>
-    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <div class="container">
       <nav class="navbar mb-5" role="navigation" aria-label="main navigation">
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-brand">
+          <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div id="navMenu" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item"> About </a>
+            <a class="navbar-item" href="#about"> About </a>
 
             <a class="navbar-item"> Blog </a>
 
@@ -22,47 +29,51 @@
             <a class="navbar-item"> News </a>
 
             <a href="#" class="navbar-item"> Stuff </a>
-          </div>
-        </div>
 
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <div class="buttons">
-              <span class="social-btn mr-5">
-                <a
-                  href="https://twitter.com/RashedDoha"
-                  target="_blank"
-                  class="twitter"
-                  ><i class="fab fa-twitter fa-lg"></i
-                ></a>
-              </span>
-              <span class="social-btn mr-5">
-                <a
-                  href="https://github.com/RashedDoha"
-                  target="_blank"
-                  class="github"
-                  ><i class="fab fa-github fa-lg"></i
-                ></a>
-              </span>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <span class="social-btn mr-5">
+                  <a
+                    href="https://twitter.com/RashedDoha"
+                    target="_blank"
+                    class="twitter"
+                    ><i class="fab fa-twitter fa-lg"></i
+                  ></a>
+                </span>
+                <span class="social-btn mr-5">
+                  <a
+                    href="https://github.com/RashedDoha"
+                    target="_blank"
+                    class="github"
+                    ><i class="fab fa-github fa-lg"></i
+                  ></a>
+                </span>
+              </div>
             </div>
           </div>
+          
         </div>
+
+        
       </nav>
 
       <div class="has-text-centered">
         <p class="title">Rashed Doha</p>
       </div>
 
-      <hr>
-
-      <div class="about columns p-5 is-vcentered">
-        <div class="column is-one-third">
-          <div class="card frame">
-            <img src="images/fall.JPG" alt="" />
-          </div>
-        </div>
-        <div class="column">
-          <p>
+      <hr />
+      <section class="section" id="about">
+      <div class="container">
+        <section class="profile columns">
+          <figure class="image column is-4">
+            <div class="card profilepic">
+              <img src="images/fall.JPG" alt="profilepic" class="profilepic" />
+            </div>
+          </figure>
+          <p class="column is-8">
             Mechanical Engineering graduate student currently doing
             autonomous-vehicle related research at Indiana University. Extensive
             experience of 2+ years in computer vision and software development.
@@ -77,8 +88,11 @@
             PyTorch, Tensorflow, and Caffe. - Held monthly seminars and
             workshops to share my findings with my peers.
           </p>
-        </div>
+        </section>
+
+        
       </div>
+    </section>
     </div>
 
     <script

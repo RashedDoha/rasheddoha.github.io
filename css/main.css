@@ -7723,8 +7723,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
-.content-text {
-  font-weight: 300; }
+.feather {
+  stroke-width: 1.2; }
 
 @media screen and (max-width: 499px) {
   .navbar-menu {
@@ -7760,7 +7760,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
 
 section.profile {
-  max-width: 767px;
+  max-width: 800px;
   margin: auto; }
 
 @media screen and (max-width: 768px) {

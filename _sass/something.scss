@@ -1,5 +1,5 @@
-.content-text {
-    font-weight: 300;
+.feather {
+    stroke-width: 1.2;
 }
 
 @include until($navbar-breakpoint) {
@@ -52,7 +52,7 @@
 
 
 section.profile {
-    max-width: 767px;
+    max-width: $main-width;
     margin: auto;
 }
 

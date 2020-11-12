@@ -2,9 +2,13 @@
     stroke-width: 1.2;
 }
 
+a.navbar-item:hover {
+    background: none;
+    color: $dark;
+}
+
 @include until($navbar-breakpoint) {
 
-    
     .navbar-menu {
       display: block;
       opacity: 0;
@@ -47,14 +51,15 @@
 }
 
 .card {
-    box-shadow: 0 2px 4px rgba(0,0,0,.5);
+    box-shadow: 0 2px 4px rgba(131, 113, 113, 0.5);
 }
 
 
-section.profile {
+#profile {
     max-width: $main-width;
-    margin: auto;
+    margin: 0 auto;
 }
+
 
 @include until($tablet) {
     .profilepic {

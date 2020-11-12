@@ -7752,12 +7752,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .social-btn > a:hover {
   color: black; }
 
-@media screen and (min-width: 769px) {
-  .social-btn {
-    margin-right: 1.5rem !important; } }
-
 .card {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+  box-shadow: 0 2px 4px rgba(131, 113, 113, 0.5); }
 
 section.profile {
   max-width: 800px;

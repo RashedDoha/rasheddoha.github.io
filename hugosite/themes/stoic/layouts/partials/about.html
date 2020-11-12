@@ -1,26 +1,22 @@
 <section class="section" id="about">
-    <div class="container">
-      <section class="profile columns">
-        <figure class="image column is-4">
-          {{with .Site.Params.home}}
-          <div class="card profilepic">
-              
-              {{$profilepic := printf .profilepic | relURL }}
-            <img
-              src="{{ $profilepic }}"
-              alt="profilepic"
-              class="profilepic"
-            />
-          </div>
-          {{end}}
-        </figure>
-
-        {{ with .Site.GetPage }}
-        <p class="column is-8 content-text">
-          {{.Param "bio"}}
-        </p>
+    <section class="columns" id="profile">
+      <figure class="image column is-4">
+        {{with .Site.Params.home}}
+        <div class="card profilepic">
+          {{$profilepic := printf .profilepic | relURL }}
+          <img
+            src="{{ $profilepic }}"
+            alt="profilepic"
+            class="profilepic"/>
+        </div>
         {{end}}
+      </figure>
 
-      </section>
-    </div>
-  </section>
+      {{ with .Site.GetPage }}
+      <p class="column is-8 content-text">
+        {{.Param "bio"}}
+      </p>
+      {{end}}
+
+    </section>
+</section>

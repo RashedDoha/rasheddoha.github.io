@@ -1,6 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "An internet page"
+author = "Rashed Doha"
 theme = "stoic"
 
 

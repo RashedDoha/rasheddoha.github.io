@@ -13,9 +13,9 @@
       </figure>
 
       {{ with .Site.GetPage }}
-      <p class="column is-8 content-text">
-        {{.Param "bio"}}
-      </p>
+      <div class="column is-8 content-text">
+        {{.Content}}
+      </div>
       {{end}}
 
     </section>

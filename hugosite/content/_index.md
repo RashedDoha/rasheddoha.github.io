@@ -1,19 +1,21 @@
 ---
-
-bio: Mechanical Engineering graduate student currently doing
-    autonomous-vehicle related research at Indiana University.
-    Extensive experience of 2+ years in computer vision and software
-    development. Here's a quick summary of my past work- - Writing
-    software for the Windows platform in Microsoft's UWP and WPF
-    frameworks. As a member of the Windows team at Samsung, I wrote
-    code in C++ and C# while following a variety of software design
-    patterns. - Building and training deep learning models for
-    computer vision applications. Kept up-to-date with the latest
-    advancements in the field to ensure that the models achieved
-    state-of-the-art performance. Wrote code in the Python programming
-    language and deep learning frameworks including PyTorch,
-    Tensorflow, and Caffe. - Held monthly seminars and workshops to
-    share my findings with my peers.
-
-
+Title: "aboutme"
 ---
+
+Hi, welcome to my website. I'm a Mechanical Engineering
+graduate student currently working on autonomous vehicle
+research under the guidance of Dr. Anwar and Dr. Hasan at
+Indiana University.  
+\
+In terms of academic and professional interests, I enjoy
+bridging theory and application in several subdomains of
+machine learning and computer vision, most notably semantic
+segmentation and domain adaptation. As a fresh graduate, I
+worked at Samsung Research for 2 years where I worked in
+multiple teams to develop software for Samsung's mobile
+devices.  
+\
+In my spare time I try to get better at playing
+the piano, compete in online programming contests and
+write articles for my blog.  
+

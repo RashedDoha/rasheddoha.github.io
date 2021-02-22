@@ -20,7 +20,7 @@
       <div class="navbar-item">
           {{range .Site.Params.social}}
           <span class="social-btn mr-3">
-            <a href="{{ .URL }}" target="_blank">
+            <a href="{{ .url }}" target="_blank">
               {{ if .icon }}
               {{ $icon := printf "<i data-feather=\"%s\"></i> " .icon | safeHTML }}
               {{ $icon }}
@@ -36,7 +36,15 @@
 </nav>
 
 <div class="has-text-centered">
-  {{$author := print .Site.Params.home.name | safeHTML}}
-  <p class="title" style="font-weight: 400">{{$author}}</p>
+  {{if .IsHome}}
+  {{$title := print .Site.Params.home.name | safeHTML}}
+  <p class="title" style="font-weight: 400">{{$title}}</p>
+  {{ else }}
+  {{$title := .Title}}
+  <p class="title" style="font-weight: 400">{{$title}}</p>
+  {{ end }}
+  
 </div>
+
+
 <hr />

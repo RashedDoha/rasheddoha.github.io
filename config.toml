@@ -8,6 +8,7 @@ summaryLength=10
 paginate=5
 disqusShortname = "rasheddoha-github-io"
 copyright = "&#169; Rashed Doha. All rights reserved."
+publishDir = "docs"
 [permalinks]
   posts= "/:year/:month/:title/"
 

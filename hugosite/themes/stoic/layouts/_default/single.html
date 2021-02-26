@@ -1,10 +1,11 @@
 {{ define "main" }}
 <section>
-<section style='max-width:800px;margin:0 auto'>
+<section class="item-list" style='max-width:800px;margin:0 auto'>
 <!-- <p class='title'>{{ .Title }}</p> -->
 {{ partial "metadata.html" . }}
 <br><br>
-{{ .Content }}
+{{ .Content | safeHTML}}
+<hr>
 {{ template "_internal/disqus.html" . }}
 </section>
 </section>

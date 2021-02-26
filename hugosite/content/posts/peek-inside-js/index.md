@@ -80,3 +80,7 @@ Now if you examine the code above, something seems a bit off. Once the parent fu
 Contrary to the scoping rules imposed on functions in many of the other languages, JavaScript functions have lexical scope. Meaning that regardless of the execution context of a function, it’s scope will always be the scope defined in the way the script is written. The word lexical basically means what you can see. So in code, the variables you can see a function have access to by the way it’s written, is the variables it will have access to as part of its scope- regardless of the context in which it is run. These two concepts of first-class functions and closures are two of the three most confusing parts of JavaScript for someone coming from a language background like Java or C++. The third one is how the “this” keyword is bound to values. That deserves a separate writing of its own.
 
 Despite the initial confusion surrounding closures, it can be a very effective tool for writing clever and efficient code, if used correctly.
+
+I’ve written a pen for this topic for those interested-
+
+{{<codepen id="KqvLgV" tab="js">}}

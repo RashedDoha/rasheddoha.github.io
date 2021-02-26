@@ -37,10 +37,10 @@
 
 <div class="has-text-centered">
   {{if .IsHome}}
-  {{$title := print .Site.Params.home.name | safeHTML}}
+  {{$title := print .Site.Params.home.name | markdownify}}
   <p class="title" style="font-weight: 400">{{$title}}</p>
   {{ else }}
-  {{$title := .Title}}
+  {{$title := .Title | markdownify}}
   <p class="title" style="font-weight: 400">{{$title}}</p>
   {{ end }}
   

@@ -41,5 +41,5 @@ disqusShortname = "rasheddoha-github-io"
         weight = 3
     [[menu.main]]
         name = "Stuff"
-        url = "#stuff"
+        url = "/stuff"
         weight = 4

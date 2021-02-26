@@ -328,6 +328,14 @@ a {
   a:hover {
     color: #2866ca; }
 
+a.mute {
+  color: #363636;
+}
+
+a.mute:hover { 
+  color: #111;
+}
+
 code {
   background-color: whitesmoke;
   color: #da1039;
@@ -7716,8 +7724,25 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
       padding: 18rem 1.5rem; } }
 
 .footer {
-  background-color: #fafafa;
-  padding: 3rem 1.5rem 6rem; }
+  /* background-color: #fafafa; */
+  text-align: center;
+  font-size: 0.85rem;
+  padding: 2rem 1.5rem 0rem; }
+
+.footer-links > ul {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links > ul > li {
+  padding: 0 0.5rem;
+}
+
+a.footer-link {
+  margin-right: 0.2rem;
+}
+
 
 .feather {
   stroke-width: 1.2; }
@@ -7749,7 +7774,10 @@ a.navbar-item:hover {
   .navbar-menu.is-active {
     opacity: 1;
     transform: none;
-    pointer-events: auto; } }
+    pointer-events: auto; }
+  .item-list {
+    padding: 20px;
+  } }
 
 @media screen and (min-width: 500px) {
   .navbar-start {

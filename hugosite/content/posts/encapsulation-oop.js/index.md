@@ -22,11 +22,11 @@ Because it allows you to prevent users from setting your object’s properties t
 
 ```java
 public class Rectangle {
-public int height;
-public int width;
-public void drawOnCanvas(Canvas c) {
-    c.draw(this); 
-}    
+    public int height;
+    public int width;
+    public void drawOnCanvas(Canvas c) {
+        c.draw(this); 
+    }    
 }
 ```
 
@@ -53,6 +53,3 @@ Here’s a short story that should clear up why it’s the use of encapsulation 
 You just joined a new firm which is known for creating wonderful cloud solutions for its customers. Employees of the firm are allowed their own cloud storage for free. But this process is still just getting started. As a simple task, your boss asked you to write a client side program that will allow employees of the organization to write their own code that can access cloud storage space allocated for that employee.
 
 Your boss wants to keep things simple for you, so he says that the backend will reject all invalid size allocations such as negative sizes. So you figure that this is simply a case of writing a storage class with a size property that users are free to access, since the backend will deal with negative sizes, you don’t have to worry about encapsulating them either.
-
-
-

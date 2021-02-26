@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="item-list" style="max-width: 800px;margin: 0 auto">
+<!-- <h1>{{ .Title }}</h1> -->
+{{ template "_internal/pagination.html" . }}
+{{ range .Paginator.Pages.ByPublishDate.Reverse }}
+<p>
+    <h2>{{ .Title | markdownify}}</h2>
+    {{ partial "metadata.html" . }}
+    <p>{{ .Summary  }}</p>
+</p>
+<br>
+<hr>
+<!-- <br> -->
+{{ end }}
+</div>
+{{ end }}

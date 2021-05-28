@@ -4,7 +4,7 @@ linktitle: Something Kinda Cool
 publishdate: 2017-06-24
 ---
 
-![Javascript](images/peek-inside-js.jpeg)
+![Javascript](images/peek-inside-js.jpeg#featured)
 
 One of the best ways to learn a new programming language is to ask yourself two important questions-
 

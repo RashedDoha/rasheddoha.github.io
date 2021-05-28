@@ -4,7 +4,7 @@ linktitle: Encapsulation in OOP
 publishdate: 2017-07-05
 ---
 
-![Encapsulation](images/encapsulation-oop.jpeg)
+![Encapsulation](images/encapsulation-oop.jpeg#featured)
 
 Whenever we come across an introductory or somewhat intermediate text on object oriented programming there’s always someone there to remind us of the importance of encapsulating an object’s member variables. In layman’s terms, that means to make sure that you don’t allow direct access to an object’s members but instead make use of getters and setters. This is of course important, in fact it is one of the four principles of OOP which are-
 

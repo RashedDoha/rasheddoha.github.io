@@ -16,7 +16,7 @@ copyright = "&#169; Rashed Doha. All rights reserved."
     favicon = "circle.ico"
     [params.home]
         name = "Rashed Doha"
-        profilepic = "/images/headshot.jpg"
+        profilepic = "/images/michigan_city.jpg"
     [[params.social]]
         icon = "twitter"
         url = "https://twitter.com/RashedDoha"

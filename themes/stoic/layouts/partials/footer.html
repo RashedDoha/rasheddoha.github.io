@@ -2,7 +2,7 @@
     
     <p>
         {{if .RSSLink}}
-        <a href="{{.RSSLink}}" type="application/rss+xml" target="_blank" class="footer-link mute"><i data-feather="rss"></i></a>
+        <a href="{{ with .OutputFormats.Get “RSS” }}{{ .RelPermalink }}{{ end }}" type="application/rss+xml" target="_blank" class="footer-link mute"><i data-feather="rss"></i></a>
         {{end}}
           Copyright (c) {{ now.Format "2006"}} Rashed Doha | 
           <a href="#" class="mute"><u>Contact</u></a>

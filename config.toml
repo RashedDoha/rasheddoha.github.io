@@ -1,6 +1,6 @@
 baseURL = "http://rasheddoha.github.io/"
 languageCode = "en-us"
-title = "An internet page"
+title = "Rashed Doha"
 author = "Rashed Doha"
 theme = "stoic"
 hasCJKLanguage = true

@@ -3,6 +3,7 @@
 <section class="item-list" style='max-width:800px;margin:0 auto'>
 <!-- <p class='title'>{{ .Title }}</p> -->
 {{ partial "metadata.html" . }}
+<p>Reading time: {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }}</p>
 <br><br>
 {{ .Content | safeHTML}}
 <hr>

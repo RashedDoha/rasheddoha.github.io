@@ -7854,3 +7854,12 @@ a.navbar-item:hover {
 .navigation > ul {
   display: inline-flex;
 }
+
+p.pub-container {
+  display: flex;
+}
+
+p.pub-container > img {
+  max-width: 30%;
+  margin-right: 10%;
+}

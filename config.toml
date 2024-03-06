@@ -42,8 +42,8 @@ copyright = "&#169; Rashed Doha. All rights reserved."
         url = "/news"
         weight = 3
     [[menu.main]]
-        name = "Stuff"
-        url = "/stuff"
+        name = "Publications"
+        url = "/publications"
         weight = 4
 
 [outputFormats]

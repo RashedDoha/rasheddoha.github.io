@@ -7855,11 +7855,16 @@ a.navbar-item:hover {
   display: inline-flex;
 }
 
-p.pub-container {
+.pub-container {
   display: flex;
 }
 
-p.pub-container > img {
-  max-width: 30%;
+.pub-container > p {
+  max-width: 50%;
+  /* margin-right: 10%; */
+}
+
+.pub-container > p > img {
+  max-width: 70%;
   margin-right: 10%;
 }

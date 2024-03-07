@@ -7,5 +7,7 @@ publishdate: 2021-08-14
 
 Authors: Rashed Doha, Mohammad Al Hasan, Sohel Anwar, Veera Rajendran
 
+_In Proceedings of the 27th ACM SIGKDD conference on knowledge discovery & data mining_
+
 
 

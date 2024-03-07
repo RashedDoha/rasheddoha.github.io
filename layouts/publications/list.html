@@ -6,13 +6,16 @@
 <p>
     <h2><a class="post-title"  href="{{ .Params.link }}">{{ .Title | markdownify}}</a></h2>
     {{ partial "metadata.html" . }}
-    
-    <p class="pub-container">
-        {{ with .Params.imagelink }}
-            <img class="post-image" src="{{ . }}"/>
-        {{ end }}
-        {{ .Summary  }}
-    </p>
+    <div class="pub-container">
+        <p>
+            {{ with .Params.imagelink }}
+                <img class="post-image" src="{{ . }}"/>
+            {{ end }}
+            <div>
+                {{ .Content  }}
+            </div>
+        </p>
+    </div>
 
 </p>
 <br>

@@ -1,3 +1,3 @@
 ---
-title: Publications
+title: Selected Publications
 ---

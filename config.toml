@@ -5,7 +5,6 @@ author = "Rashed Doha"
 theme = "stoic"
 hasCJKLanguage = true
 summaryLength=10
-paginate=5
 disqusShortname = "rasheddoha-github-io"
 copyright = "&#169; Rashed Doha. All rights reserved."
 [permalinks]
@@ -16,7 +15,7 @@ copyright = "&#169; Rashed Doha. All rights reserved."
     favicon = "circle.ico"
     [params.home]
         name = "Rashed Doha"
-        profilepic = "/images/zion.jpeg"
+        profilepic = "/images/chicago.jpeg"
     [[params.social]]
         icon = "twitter"
         url = "https://twitter.com/RashedDoha"
@@ -54,5 +53,4 @@ copyright = "&#169; Rashed Doha. All rights reserved."
     page = ["HTML"]
     home = ["HTML"]
     section = ["HTML","RSS"]
-    taxonomyTerm = ["HTML"]
     taxonomy = ["HTML"]
